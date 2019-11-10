@@ -1,0 +1,21 @@
+[
+    { "name" : "cow",  
+      "lifespan" : "15y",  
+      "weight" : "3T",  
+      "herd" : true, 
+      "isYammi" : 10
+    },
+    {   "name" : "goat",  
+        "lifespan" : "5y",  
+        "weight" : "30kg",  
+        "herd" : true, 
+        "isYammi" : 1
+    },
+    {   "name" : "sheep",  
+        "lifespan" : "10y",  
+        "weight" : "40kg",  
+        "herd" : true, 
+        "isYammi" : 1000
+    }
+]
+
