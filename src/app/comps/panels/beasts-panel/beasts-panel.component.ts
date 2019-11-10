@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BeastsPanelComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    console.log('BeastsPanelComponent ctor');
+
+  }
 
   ngOnInit() {
   }

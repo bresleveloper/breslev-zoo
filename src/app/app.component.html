@@ -4,18 +4,10 @@
 <app-header></app-header>
 
 
-
-<app-beasts-panel></app-beasts-panel>
-<app-birds-panel></app-birds-panel>
-<app-wilds-panel></app-wilds-panel>
-
-<app-beast-card></app-beast-card>
-<app-bird-card></app-bird-card>
-<app-wild-card></app-wild-card>
+<app-beasts-panel *ngIf="paging.currentPanel == 'beasts'"></app-beasts-panel>
+<app-birds-panel *ngIf="paging.currentPanel == 'birds'"></app-birds-panel>
+<app-wilds-panel *ngIf="paging.currentPanel == 'wilds'"></app-wilds-panel>
 
 
-
-
-
-<app-paginator></app-paginator>
+<app-paginator (moveItem)="getUp($event)"></app-paginator>
 <app-footer></app-footer>

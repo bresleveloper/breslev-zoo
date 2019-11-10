@@ -1,1 +1,17 @@
-<p>birds-panel works!</p>
+
+
+<h1>Welcome to the birds observatory</h1>
+
+<div class="flex">
+    <div>
+        <h2>our birds list</h2>
+        <ul>
+            <li *ngFor="let b of birdsSvc.birds"> {{ b.name }} </li>
+        </ul>
+    </div>
+
+
+    <div>
+        <app-bird-card></app-bird-card>
+    </div>
+</div>
