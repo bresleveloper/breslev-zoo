@@ -5,6 +5,9 @@ Mooooooooo
 ## copy my git
 `git clone https://github.com/bresleveloper/breslev-zoo.git`
 
+## see it
+[in git pages](https://bresleveloper.github.io/breslev-zoo/)
+
 ## zoo project need to show  3 type of animal groups 
 
 for example birds, beasts, wild
