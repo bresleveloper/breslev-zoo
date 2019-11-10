@@ -4,4 +4,5 @@ export class Beast {
     weight:string
     herd:boolean
     isYammi:number
+    src:string
 }
