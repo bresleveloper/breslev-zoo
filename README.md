@@ -93,6 +93,17 @@ angular cmd's
 
 
 
+## deploy project into GHP
+
+1. `ng build --prod`
+2. if you already know, change `index.html` `<base href...`
+3. copy output folder (ex. `dist/avra-zoo/`) to `docs` folder
+4. open git repo and upload everything (daaaaa)
+5. set GHP to `docs` folder
+6. if needed, do step 2 and push again
+
+
+
 
 
 
